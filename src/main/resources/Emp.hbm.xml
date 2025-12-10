@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ 
+<hibernate-mapping>
+ <class name="Employee" table="employee">
+  <id name="eid">
+   <generator class="increment"/>
+  </id>
+  <property name="ename"/>
+  <property name="esal"/>
+  <property name="desig"/>
+  
+  
+ </class>
+</hibernate-mapping>
